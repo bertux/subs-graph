@@ -1,8 +1,8 @@
 {
   "mainnet": {
-    "ZNS": {
-      "address": "0x47D3EbdD10DCd834289484DeD9BfddFdE410b419",
-      "startBlock": 5889149
+    "Subscribers": {
+      "address": "0x000000000000000000000000000000000000Aa07",
+      "startBlock": 1101
     }
   }
 }

@@ -1,4 +1,4 @@
-type Domain @entity {
+type NoGasPass @entity {
   id: ID!
   creator: Bytes!
   newOwner: Bytes!

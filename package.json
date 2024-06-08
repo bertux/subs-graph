@@ -4,9 +4,9 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "create": "graph create --node http://localhost:8020/ arthera/zns",
-    "remove": "graph remove --node http://localhost:8020/ arthera/zns",
-    "deploy": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 arthera/zns",
+    "create": "graph create --node http://localhost:8020/ arthera/subscribers",
+    "remove": "graph remove --node http://localhost:8020/ arthera/subscribers",
+    "deploy": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 arthera/subscribers",
     "test": "graph test"
   },
   "dependencies": {

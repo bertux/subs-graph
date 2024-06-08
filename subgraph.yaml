@@ -1,27 +1,27 @@
 specVersion: 1.0.0
-description: A subgraph to index data on the ZNS contract
+description: A subgraph to index data on the Subscribers contract
 indexerHints:
   prune: auto
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum
-    name: ZNS
+    name: Subscribers
     network: mainnet
     source:
-      address: "0x47D3EbdD10DCd834289484DeD9BfddFdE410b419"
-      abi: ZNS
-      startBlock: 5889149
+      address: "0x000000000000000000000000000000000000Aa07"
+      abi: Subscribers
+      startBlock: 1101
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
       language: wasm/assemblyscript
       entities:
-        - Domain
+        - NoGasPass
       abis:
-        - name: ZNS
-          file: ./abis/ZNS.json
+        - name: Subscribers
+          file: ./abis/Subscribers.json
       eventHandlers:       
         - event: Transfer(indexed address,indexed address,indexed uint256)
           handler: handleTransfer      
-      file: ./src/mappings/domains.ts
+      file: ./src/mappings/subs.ts

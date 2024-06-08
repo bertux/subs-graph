@@ -1,4 +1,4 @@
-# Arthera Subscribers subgraph
+# Arthera ZNS subgraph
 
 ## Configure
 

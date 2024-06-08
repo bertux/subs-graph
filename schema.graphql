@@ -1,16 +1,6 @@
-type Transfer @entity(immutable: true) {
-  id: Bytes!
-  from: Bytes!
-  to: Bytes!
-  tokenId: BigInt! 
-  blockNumber: BigInt!
-  transactionHash: Bytes!
-}
-
 type NoGasPass @entity {
   id: ID!
   creator: Bytes!
   newOwner: Bytes!
-  tokenURI: String!
   blockNumber: BigInt!
 }
